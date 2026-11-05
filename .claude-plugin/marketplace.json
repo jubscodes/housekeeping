@@ -1,0 +1,11 @@
+{
+  "name": "housekeeping",
+  "owner": { "name": "jubscodes" },
+  "plugins": [
+    {
+      "name": "housekeeping",
+      "source": "./",
+      "description": "Git + machine housekeeping: evidence-based cleanup of worktrees, branches, tags, stash, disk and leftover dev processes."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "housekeeping",
+  "description": "Git + machine housekeeping for Claude Code: prove which worktrees, branches, tags and stashes are safe to delete, propose one cleanup table, execute only what you approve, then sync with origin.",
+  "version": "1.0.0",
+  "author": { "name": "jubscodes" },
+  "license": "MIT",
+  "keywords": ["git", "worktrees", "branches", "cleanup", "housekeeping"]
+}
