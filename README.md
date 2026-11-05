@@ -10,18 +10,27 @@ A Claude Code skill for git + machine housekeeping. Say "housekeeping time" and 
 
 ## Install
 
-As a plugin:
+### As a standalone skill (one file, no plugin)
+
+For all your projects:
+
+```bash
+mkdir -p ~/.claude/skills/housekeeping && curl -fsSL https://raw.githubusercontent.com/jubscodes/housekeeping/main/skills/housekeeping/SKILL.md -o ~/.claude/skills/housekeeping/SKILL.md
+```
+
+For one project only, run from the repo root:
+
+```bash
+mkdir -p .claude/skills/housekeeping && curl -fsSL https://raw.githubusercontent.com/jubscodes/housekeeping/main/skills/housekeeping/SKILL.md -o .claude/skills/housekeeping/SKILL.md
+```
+
+Start a new Claude Code session and it's available.
+
+### As a plugin
 
 ```
 /plugin marketplace add jubscodes/housekeeping
 /plugin install housekeeping@housekeeping
-```
-
-Or copy the skill directly:
-
-```bash
-mkdir -p ~/.claude/skills
-cp -r skills/housekeeping ~/.claude/skills/
 ```
 
 ## Use
